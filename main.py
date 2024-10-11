@@ -9,9 +9,9 @@ def main():
             print(f'The character {char} was used a total of {char_number[char]} times')
         print('\nEnd report')
 
-def script_words(script):
-    divided_script = script.split()
-    number_words = len(divided_script)
+def script_words(text):
+    divided_text = text.split()
+    number_words = len(divided_text)
     return number_words
 
 def character_count(text):
